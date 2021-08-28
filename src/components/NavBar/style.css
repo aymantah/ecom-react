@@ -1,0 +1,34 @@
+.MuiAppBar-colorPrimary.custom-navbar {
+  background-image: linear-gradient(to bottom right, #ffffff, #c2c4c7);
+}
+
+.MuiAppBar-colorPrimary.custom-navbar > div > div {
+  padding: 0;
+}
+.basket-wrapper {
+  flex-grow: 1;
+  justify-content: flex-end;
+  display: flex;
+  font-size: 14px;
+}
+.basket-wrapper h2 {
+  color: #181818;
+}
+
+.custom-navbar .custom-title {
+  display: flex;
+}
+
+.custom-navbar .custom-title .logo {
+  width: 100px;
+  height: 100px;
+}
+
+.basket-wrapper .custom-basket {
+  font-size: 45px;
+  color: #181818;
+}
+
+.basket-wrapper strong {
+  color: #181818;
+}

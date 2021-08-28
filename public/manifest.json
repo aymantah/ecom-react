@@ -1,0 +1,25 @@
+{
+  "short_name": "Camisitaillos Shopping",
+  "name": "Create Camisitaillos Shopping App",
+  "icons": [
+    {
+      "src": "cami.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "cami.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "cami.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#c9d1d9",
+  "background_color": "#121212"
+}

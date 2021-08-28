@@ -1,0 +1,46 @@
+.banner {
+  padding-top: 180px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  background-image: linear-gradient(to bottom right, #ffffff, #848b94);
+}
+
+.banner > div > div {
+  align-items: center;
+}
+
+.banner .brand {
+  display: flex;
+  align-items: center;
+}
+
+.banner .brand img {
+  width: 100%;
+}
+
+.banner .title {
+  font-size: 45px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #181818;
+}
+
+.banner a.shopping-button {
+  color: #ffffff;
+  background-color: #181818;
+}
+
+.banner a.shopping-button:hover {
+  color: #181818;
+  background-color: #ffffff;
+  transition: ease-in;
+}
+
+@media (min-width: 800px) {
+  .banner .title {
+    font-size: 65px;
+  }
+}
